@@ -1,0 +1,438 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-family-content);
+    font-weight: var(--font-weight-text);
+    /* letter-spacing: -0.1px; */
+}
+
+.header__menu {
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+}
+
+.header__menu_top {
+    background-color: #CFE1E7;
+    min-height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    justify-content: center;
+}
+
+.header__menu-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: var(--main-color);
+}
+
+.header__menu-list_top {
+    gap: 25px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+.header__menu-list_bottom {
+    gap: 66.5px;
+    align-items: center;
+    /* margin-left: 141px; */
+}
+
+.menu-link {
+    text-decoration: none;
+}
+
+.header__menu_bottom {
+    background-color: #F9F6F0;
+    min-height: 73px;
+    font-size: 14px;
+    line-height: 23px;
+    padding-left: 180px;
+}
+
+.cover__main-image {
+    position: relative;
+    width: 100%;
+    min-height: 727px;
+    background-image: url(../images/image_main.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cover {
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: var(--font-family-content);
+}
+
+.cover__main-image__description {
+    display: flex;
+    flex-direction: column;
+    padding-top: 410px;
+}
+
+.cover__main-image__title {
+    display: block;
+    max-width: 219px;
+    text-align: center;
+    font-size: 31px;
+    line-height: 43.2px;
+    font-weight: normal;
+    padding-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 130px;
+}
+
+.block__text {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.cover__main-image__text {
+    max-width: 219px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+}
+
+.cover__main-image__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 70px 0 150px;
+}
+
+.button {
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid var(--main-color);
+    width: min-content;
+    cursor: pointer;
+}
+
+.button_text {
+margin: 0 50px 0 50px;
+white-space: nowrap;
+}
+
+.button__blocks {
+    margin-top: 45px;
+    margin-bottom: 55px;
+}
+
+.button:active {
+    border: none;
+}
+
+.cover__main-image__description__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery__rings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    height: 511px;
+}
+
+
+.block__pre-text {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.block__title {
+    font-size: 43px;
+    line-height: 60px;
+    margin-top: 12px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.gallery__rings__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.gallery__rings_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.sustainability {
+    display: flex;
+    flex-direction: column;
+}
+
+.sustainability__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 570px;
+    align-items: end;
+    background-color: var(--background-color-block-green);
+}
+
+.sustainability__image {
+    background: url(../images/image_sustainability.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.sustainability__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sustainability__text {
+    max-width: 449px;
+    margin-top: 145px;
+}
+
+.sustainability__menu {
+    height: 26px;
+    font-size: 12px;
+    line-height: 26px;
+    color: var(--dop-color);
+}
+
+.sustainability__menu_nav {
+    justify-content: center;
+}
+
+.sustainability__menu-list {
+    display: flex;
+    gap: 145px;
+    list-style-type: none;
+}
+
+.about-us {
+    height: 676px;
+    background-color: var(--background-color-block-brown);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+
+.block__title_big {
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    max-width: 951px;
+    margin-bottom: 100px;
+    margin-top: 238px;
+    z-index: 1;
+}
+
+.about-us__image_1 {
+    background-image: url(../images/image_ring_small_2.png);
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 566px;
+    top: 180px;
+}
+
+.about-us__image_2 {
+    background-image: url(../images/image_ring_small_1.png);
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 401px;
+    top: 330px;
+    z-index: 0;
+}
+
+.consciously {
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.tradition {
+    height: 462px;
+    background-color: var(--background-color-block-green);
+}
+
+.tradition__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 436px;
+    align-items: center;
+    background-color: var(--background-color-block-green);
+}
+
+.tradition__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.tradition__image {
+    background-image: url(../images/image_tradition.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 302px;
+    margin-bottom: 35px;
+    margin-right: 15px;
+}
+
+.tradition__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 47px;
+}
+
+.tradition__text {
+    display: block;
+    margin-top: 45px;
+    width: 426px;
+}
+
+.tradition__menu {
+    background-color: #ffffff;
+}
+
+.tradition__menu-list {
+    gap: 128px
+}
+
+
+.heart {
+    height: 493px;
+}
+
+.heart__image {
+    background-image: url(../images/image_heart.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 493px;
+    width: 100%;
+}
+
+.heart__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 492px;
+    align-items: center;
+    background-color: var(--background-color-block-blue);
+}
+
+.heart__text {
+    display: block;
+    margin-top: 18px;
+    width: 450px;
+}
+
+.heart__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 65px;
+    margin-left: 10px;
+}
+
+.gallery__rings_bottom {
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px;
+}
+
+.ring__image {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ring__image_one {
+    background-image: url(../images/image_rings_1.png);
+}
+
+.ring__image_second {
+    background-image: url(../images/image_rings_2.png);
+}
+
+.ring__image_third {    
+    background-image: url(../images/image_rings_3.png);
+}
+
+.ring__image_fourth {
+    background-image: url(../images/image_rings_4.png);
+}
+
+.footer {
+    height: 463px;
+    background-color: var(--background-color-footer);
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__content_all{
+    display: grid;
+    grid-template-columns: 130px 130px 130px 485px 1fr 1fr;
+    justify-content: center;
+    align-items: top;
+    padding: 140px 40px 0px 40px;
+}
+
+.footer__title {
+    max-width: 310px;
+    margin-left: 20px;
+}
+
+.footer__input__container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button_footer {
+    background-color: #98B7A4;
+    height: 29px;
+    width: 100px;
+    margin-left: -100px; 
+}
+
+.footer__input {
+    width: 347px;
+    height: 31px;
+    border-radius: 25px;
+}
+
+.block__pre-text_footer {
+    margin-bottom: 10px;
+}
+
+.footer__list {
+    line-height: 22px;
+}
+
+

@@ -1,0 +1,11 @@
+/* В этом файле хранятся все значения переменных */
+:root {
+    --main-color: #000000;
+    --font-family-content: 'Roboto', sans-serif;
+    --font-weight-text: 400;
+    --background-color-block-green: #98B7A4;
+    --dop-color: #373938;
+    --background-color-block-brown: #E5DFD3;
+    --background-color-block-blue: #CFE1E6;
+    --background-color-footer: #F9F6F0;
+}
